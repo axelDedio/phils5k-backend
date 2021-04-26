@@ -47,7 +47,7 @@ app.get('/exchange_token', function (req, res) {
     }).then((response) => {
         accessToken = response.data.access_token;
         console.log(accessToken);
-        res.redirect('http://localhost:4200/home');
+        res.redirect('http://localhost:4300/home');
 
     });
 
